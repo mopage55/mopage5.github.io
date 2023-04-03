@@ -1,0 +1,171 @@
+/*Universal Changes*/
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+    top: 0;
+}
+
+header img {
+    height: 50px;
+    width: 250px;
+}
+
+header ul {
+    width: 31.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 470px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+/*Main*/
+
+main {
+    height: 500px;
+    background-image: url(./images/dave-michuda-fphpSh9KBXE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.763rem;
+}
+
+main div h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px){
+    main div h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+
+/*Products*/
+
+.products6 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.products6 div {
+    width: 25rem;
+    margin: 1.875rem;
+}
+
+.products6 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
+}
+
+
+/*Newsletter*/
+
+.newsletter {
+    width: 100%;
+    
+}
+
+.newsletter div {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 0.625rem;
+    border-radius: 2px;
+}
+
+/*Location*/
+
+.locationm {
+    padding: 1.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationm img {
+    height: 300px;
+    border: 1px solid black;
+}
+
+.locationm div {
+    margin-right: 2.5rem;
+    width: 21.875rem;
+}
+
+@media  only screen and (max-width:700px) {
+    .locationm {
+        flex-direction: column;
+    }
+
+    .locationm img  {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .locationm div {
+       max-width: 100%;
+       margin: 0 auto;
+       text-align: center;
+    }
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0.625rem;
+}
+
+footer div p {
+    padding: 0.313rem;
+    margin: 0px;
+}
+
